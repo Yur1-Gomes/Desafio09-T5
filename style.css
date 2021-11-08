@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #2CB3F3;
+    position: relative;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    margin-top: 9.5vh;
+    height: 17.8vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.text h1{
+    font-size: 3.5rem;
+}
+.text p{
+    font-weight: 400;
+    font-size: 1.9rem;
+}
+.finn{
+    position: relative;
+    height: 65.75vh;
+    width: 46vw;
+    background-color: #FFFFFF;
+    margin-top: 2.6vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15% 15% 0% 0%;
+}
+.face{
+    position: relative;
+    height: 52vh;
+    width: 36.05vw;
+    background-color: #FFE1C9;
+    border-radius: 100%;
+    top: 7vh;
+    left: 4.9vw;
+}
+.eye-left{
+    position: absolute;
+    height: 6vh;
+    width: 3vw;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 10.34vh;
+    left: 9.3vw;
+}
+.eye-right{
+    position: absolute;
+    height: 6vh;
+    width: 3vw;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 10.34vh;
+    right: 9.26vw;
+}
+.boca-form form{
+    display: flex;
+    flex-direction: column;
+    width: 19.48vw;
+    position: absolute;
+    top: 27.11vh;
+    left: 8.3vw;
+}
+.boca-form input{
+    font-size: 1.5rem;
+    padding: 2vh 0.77vw;
+    border: 0.2rem solid black;
+}
+.entrar{
+    position: relative;
+    width: 30%;
+    top: 2.56vh;
+    left: 44.5%;
+    bottom: 7.37vh;
+    margin-bottom: 7.37vh;
+}
+.entrar button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2.24vh 3.33vw;
+    background-color: #55A603;
+    color: #B2F272;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0,25);
+}
